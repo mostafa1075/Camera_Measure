@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/general_background"
+    tools:context="com.example.memo.camerameasure.ImageAccess">
+
+    <Button
+        android:id="@+id/btn_load_image"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="216dp"
+        android:layout_weight="0.05"
+        android:background="@android:color/transparent"
+        android:shadowColor="@android:color/holo_blue_dark"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:text="Load Image From Gallery"
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp" />
+
+
+    <Button
+        android:id="@+id/btn_take_image"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_alignBottom="@+id/btn_load_image"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="98dp"
+        android:layout_weight="0.05"
+        android:background="@android:color/transparent"
+        android:shadowColor="@android:color/holo_blue_dark"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp"
+        android:text="Take Image From Camera"
+         />
+
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gets points in image view</string>
+    <string-array name="unit_choices">
+    <item>CM</item>
+    <item>INCH</item>
+    </string-array>
+</resources>

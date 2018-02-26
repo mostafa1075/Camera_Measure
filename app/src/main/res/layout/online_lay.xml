@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:strokeAttrs="http://schemas.android.com/apk/res-auto"
+    tools:context=".Online">
+
+    <FrameLayout
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="484dp"
+        android:layout_height="359dp"
+        android:id="@+id/text_seek"
+        android:rotation="90"
+        android:layout_gravity="center|bottom"
+        android:shadowDx="5"
+        android:shadowColor="@android:color/black"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textStyle="bold"
+        android:strokeColor="#FFff0000"
+        android:shadowDy="5"
+        android:shadowRadius="2.5"
+        android:textSize="19dp"
+        />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="121dp"
+        android:textStyle="bold"
+        android:layout_height="164dp"
+        android:layout_gravity="center|top|left"
+        android:rotation="90"
+        android:shadowDx="5"
+        android:shadowColor="@android:color/black"
+        android:strokeColor="#FFff0000"
+        android:shadowDy="5"
+        android:shadowRadius="2.5"
+        android:textSize="15dp"
+        android:text="Above Ground"
+        android:textColor="@android:color/holo_blue_bright"
+         />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/crosshair"
+        android:layout_gravity="center"
+        android:src="@drawable/online_mark"
+        />
+
+    <SeekBar
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:id="@+id/seekBar"
+        android:max="200"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/or"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:textColor="@android:color/holo_blue_bright"
+        android:strokeWidth="5"
+        android:textStyle="bold"
+        android:rotation="90"
+        android:shadowColor="@android:color/black"
+        android:strokeColor="#FFff0000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:textSize="19dp"
+        android:shadowRadius="2.5"
+        />
+
+    <ImageButton
+        android:id="@+id/imgClose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right|top"
+        android:background="@drawable/r"
+        android:padding="20dp" />
+
+</FrameLayout>

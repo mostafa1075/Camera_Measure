@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="69dp"
+        android:ems="10"
+        android:hint="Enter Length"
+        android:inputType="textPersonName"
+        android:visibility="invisible" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="117dp"
+        android:visibility="invisible" />
+
+    <RadioButton
+        android:id="@+id/rb_coin"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_x="57dp"
+        android:layout_y="37dp"
+        android:text="Coin"
+        android:visibility="invisible" />
+
+    <RadioButton
+        android:id="@+id/rb_a4"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_x="59dp"
+        android:layout_y="73dp"
+        android:text="A4"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="146dp"
+        android:text="Button"
+        android:visibility="invisible" />
+
+    <RadioButton
+        android:id="@+id/rb_regiongrowing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Region Growing"
+        android:layout_x="0dp"
+        android:layout_y="12dp" />
+
+    <RadioButton
+        android:id="@+id/rb_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_x="0dp"
+        android:layout_y="44dp"
+        android:checked="false"
+        android:text="Custom" />
+
+</AbsoluteLayout>
